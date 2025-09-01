@@ -1,0 +1,13 @@
+[2025-07-30 12:01:23] Database backup created: /Users/darulizza/ReportIn/backend/backups/db_backup_20250730_120123.sqlite
+[2025-07-30 12:07:07] Database backup created: /Users/darulizza/ReportIn/backend/backups/db_backup_20250730_120707.sqlite
+[2025-07-30 12:07:13] Dependencies updated successfully
+[2025-07-30 12:07:14] Database initialized successfully
+[2025-07-30 12:07:15] Migration completed: add_chat_table.js
+[2025-07-30 12:07:15] Migration completed: add_friends_tables.js
+[2025-07-30 12:07:16] Migration completed: add_phone_column.js
+[2025-07-30 12:07:16] Migration completed: fix_db.js
+[2025-07-30 12:07:17] Migration completed: fix_delete_account.js
+[2025-07-30 12:07:17] Migration completed: fix_users_table.js
+[2025-07-30 12:07:20] Server started with PID: 56144
+[2025-07-30 12:07:22] Server test successful
+[2025-07-30 12:07:22] Server update completed successfully

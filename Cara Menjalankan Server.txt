@@ -1,0 +1,3 @@
+   cd E:\Create_App\ReportIn\backend
+   npm run init-db    # Hanya sekali untuk setup database
+   npm start          # Menjalankan server

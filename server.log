@@ -1,0 +1,52 @@
+🔐 JWT Secret configured: Set
+✅ Database connection loaded in routes
+✅ Routes loaded successfully
+✅ Error handler loaded successfully
+🚀 Server running on dynamic IPs:
+   - Primary: http://192.168.0.126:5005/
+   - Localhost: http://localhost:5005/
+   - 127.0.0.1: http://127.0.0.1:5005/
+📋 Available network interfaces:
+   1. en0: http://192.168.0.126:5005/
+📋 Available endpoints:
+   - Homepage: http://192.168.0.126:5005/
+   - API Root: http://192.168.0.126:5005/api
+   - API Status: http://192.168.0.126:5005/api/status
+   - Server Status: http://192.168.0.126:5005/status
+   - Ping: http://192.168.0.126:5005/ping
+   - Test: http://192.168.0.126:5005/test
+🔗 App routes: /api/register, /api/login, /api/transactions
+🔧 Environment: development
+📦 Node.js version: v22.17.0
+⚡ Compression enabled for better performance
+🌐 Dynamic IP detection enabled
+🔌 WebSocket Server initialized
+🔌 WebSocket service initialized
+Connected to SQLite database.
+Database path: /Users/darulizza/ReportIn/backend/db.sqlite
+🔍 Checking database tables...
+✅ Database optimizations applied
+[2025-07-31T09:50:25.197Z] HEAD /apk-releases/
+❌ 404: HEAD /apk-releases/
+[2025-07-31T09:50:25.385Z] GET /api/apk-versions
+📱 APK versions API requested
+[2025-07-31T09:50:35.373Z] GET /api/apk-versions
+📱 APK versions API requested
+[2025-07-31T09:50:35.970Z] HEAD /downloads/reportin-latest.apk
+📱 APK download requested
+✅ Found latest APK: reportin-v1.21.0+121(Stable).apk
+✅ APK downloaded successfully
+[2025-07-31T09:50:36.051Z] HEAD /downloads/1.21.0
+📱 APK download requested for version: 1.21.0
+✅ Found APK: reportin-v1.21.0+121(Stable).apk
+✅ APK downloaded successfully
+[2025-07-31T09:50:43.353Z] GET /api/apk-versions
+📱 APK versions API requested
+[2025-07-31T09:50:55.862Z] GET /api/apk-versions
+📱 APK versions API requested
+[2025-07-31T09:51:03.161Z] HEAD /downloads/reportin-latest.apk
+📱 APK download requested
+✅ Found latest APK: reportin-v1.21.0+121(Stable).apk
+✅ APK downloaded successfully
+🛑 SIGTERM received, shutting down gracefully
+✅ Server closed

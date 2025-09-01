@@ -1,0 +1,26 @@
+# Render Blueprint untuk ReportIn Backend
+services:
+  - type: web
+    name: reportin-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/ping
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: PORT
+        value: 10000
+      - key: ALLOWED_ORIGINS
+        value: "https://reportin-frontend.onrender.com,http://localhost:3000"
+    
+  # Optional: PostgreSQL Database
+  # - type: pserv
+  #   name: reportin-database
+  #   env: postgresql
+  #   plan: free
+  #   databaseName: reportin
+  #   databaseUser: reportin_user

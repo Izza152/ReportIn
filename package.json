@@ -1,0 +1,52 @@
+{
+  "name": "reportin-backend",
+  "version": "1.21.0",
+  "description": "Backend API for ReportIn financial management app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "npm install",
+    "init-db": "node init_db.js",
+    "reset-db": "rm -f db.sqlite && node init_db.js",
+    "fix-db": "node fix_db.js",
+    "test-login": "node test_login.js",
+    "check-db": "node check_db.js",
+    "reset-all": "node reset_all.js",
+    "verify-empty": "node verify_empty.js",
+    "add-phone-column": "node add_phone_column.js",
+    "fix-users-table": "node fix_users_table.js",
+    "add-friends-tables": "node add_friends_tables.js",
+    "add-chat-table": "node add_chat_table.js",
+    "clear-users": "node clear_users.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "render-build": "npm install && node init_db.js"
+  },
+  "keywords": [
+    "financial",
+    "management",
+    "api",
+    "nodejs",
+    "express",
+    "sqlite"
+  ],
+  "author": "ReportIn Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "multer": "^1.4.5-lts.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.6",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
